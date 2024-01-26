@@ -67,4 +67,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "shoulda-matchers", "~> 6.0"
+  gem "factory_bot_rails"
+  gem "rails-controller-testing"
+  gem "timecop"
+  gem "vcr"
+  gem "webmock"
 end
