@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.3.0"
+ruby "3.2.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.2"
@@ -49,6 +49,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
   gem "faker"
   gem 'rspec-rails', '~> 6.1.0'
+  
 end
 
 group :development do
